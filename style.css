@@ -14,7 +14,7 @@ ul{
     height: 80px;
 }
 
-main{
+main, .content{
     margin: 0 auto;
     width: 980px;
     position: relative;
@@ -27,26 +27,25 @@ main{
 }
 
 .redes-sociais ul li{
-    margin-left: 10px;
+    margin-left: 25px;
     display: inline-block;
     float: left;
     list-style: none;
-    
 }
 
 .redes-sociais{
-    width: 30%;
+    width: 25%;
     float: right;
 }
 .header-2{
     background-color: #fff;
     width: 980px;
-    margin: auto;
+    margin: 0 auto;
     padding: 16px;
 }
 
 .menu-urls{
-    height: 70px;
+    height: 80px;
     border-bottom: 3px solid #efeffe;
 
 }
@@ -87,7 +86,7 @@ main{
 }
 
 .busca input{
-    background-image: url('./img/search-inc.png');
+    background-image: url('./img/search.png');
     background-repeat: no-repeat;
     background-position: 96%;
     height: 25px;
@@ -103,15 +102,19 @@ main{
     position: relative;
 }
 
+.container img {
+    width: 1366px;
+    height: 454px;
+}
 button.slick-prev{
     font-size: 0px;
     border: none;
-    width: 48px;
-    height: 48px;
+    width: 25px;
+    height: 51px;
     z-index: 9;
     background-color: transparent;
     position: absolute;
-    background-image: url('./img/sE.png') ;
+    background-image: url('./img/SE2.png') ;
     top: 35%;
     left: 14%;
     
@@ -120,12 +123,12 @@ button.slick-prev{
 button.slick-next{
     font-size: 0px;
     border: none;
-    width: 48px;
-    height: 48px;
+    width: 25px;
+    height: 51px;
     z-index: 9;
     background-color: transparent;
     position: absolute;
-    background-image: url('./img/sD.png') ;
+    background-image: url('./img/SD2.png') ;
     top: 35%;
     right: 14%;
 }
@@ -141,10 +144,10 @@ button.slick-next{
 .slick-dots li button{
     font-size: 0px;
     border: 5px solid #fff;
-    width: 25px;
+    width: 26px;
     height: 26px;
     background: transparent;
-    border-radius: 58%;
+    border-radius: 50%;
     cursor: pointer;
 
 }
@@ -153,8 +156,8 @@ button.slick-next{
     margin: 0 auto;
     width: 50%;
     position: absolute;
-    left: 50%;
-    top: 600px;
+    left: 45%;
+    top: 400px;
 
 }
 
@@ -165,4 +168,40 @@ li.slick-active button{
 .slick-dots li{
     padding-left: 10px;
     display: inline-block;
+}
+
+.texto-destaque {
+    text-align: center;
+}
+
+.texto-destaque strong{
+    color: #646464;
+}
+
+.texto-destaque h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #818181;
+}
+
+.texto-destaque p{
+    font-size: 15px;
+    color: #9a9a9a;
+
+}
+
+.col-3{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 29%;
+    float: left;
+    position: relative;
+}
+
+.bloco-texto{
+    margin-top: 3em;
+}
+
+h3{
+    font-weight: normal!important;
 }
