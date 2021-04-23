@@ -3,6 +3,9 @@ body{
     height: 100%;
     margin: 0 auto;
 }
+/*
+
+*/
 
 ul{
     padding: 0px!important; 
@@ -309,3 +312,21 @@ cursor: pointer;
 .telefoneico:before {
     background-image: url('./img/telefoneico.png');
 }  
+
+@media screen and (max-width: 768px) {
+    .principal{
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .principal{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    footer p {
+        display: none;
+    }
+}
