@@ -14,7 +14,7 @@ ul{
 .menu-principal{
     width: 100%;
     background-color: #252323;
-    height: 80px;
+    height: 60px;
 }
 
 main, .content{
@@ -25,8 +25,8 @@ main, .content{
 
 .logo {
     float: left;
-    padding: 15px;
-    width: 60%;
+    padding: 16px;
+    width: 70%;
 }
 
 .redes-sociais ul li{
@@ -57,7 +57,7 @@ main, .content{
     display: inline-block;
     color: #8b8b8b;
     margin-left: 15px;
-    height: 40px;
+    height: 50px;
 }
 
 .menu ul li:hover{
@@ -70,7 +70,6 @@ main, .content{
 }
 
 .menu ul li a{
-    display: inline-block;
     color: #8b8b8b;
     text-decoration: none;
     font-size: 18px;
@@ -160,7 +159,7 @@ button.slick-next{
     width: 50%;
     position: absolute;
     left: 45%;
-    top: 400px;
+    top: 710px;
 
 }
 
@@ -193,7 +192,8 @@ li.slick-active button{
 
 }
 
-.col-3{
+.col-3 {
+    text-align: center;
     padding-left: 15px;
     padding-right: 15px;
     width: 29%;
@@ -201,6 +201,27 @@ li.slick-active button{
     position: relative;
     
 }
+.col-3 img{
+    border-radius: 15%;
+    
+}
+
+.bloco-imagem img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+.bloco-imagem {
+    height: 300px;
+    border: 1px solid #c5c5c5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+}
+.bloco-imagem b, p {
+    text-align: left;
+}
+
 
 .bloco-texto{
     margin-top: 3em;
@@ -213,6 +234,8 @@ h3{
 .bloco-imagens-texto {
     background-color: #eeeeee;
 }
+
+
 .bloco-imagens-texto:before {
     width: 100%;
     display: inline-block;
@@ -223,6 +246,7 @@ h3{
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .bloco-imagens-texto:after {
     width: 100%;
     display: inline-block;
@@ -230,13 +254,15 @@ h3{
     height: 70px;
     background: #eeeeee;
 } 
+
+
 .col-4 {
     float: left;
     width: 25%;
     text-align: center;
 }
 .col-4 img {
-cursor: pointer;
+ cursor: pointer;
  margin: 0 auto;
  padding-top: 1em;
  vertical-align: middle;
